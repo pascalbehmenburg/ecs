@@ -1,0 +1,15 @@
+---
+Checks: '
+  *,
+  -google-*,
+  abseil-*,
+  bugprone-*,
+  misc-*,
+  modernize-*,
+  performance-*,
+  portability-*,
+  readability-*,
+  -modernize-use-trailing-return-type'
+CheckOptions: { key: misc-non-private-member-variables-in-classes, value: IgnoreClassesWithAllMemberVariablesBeingPublic }
+WarningsAsErrors: '*'
+---
